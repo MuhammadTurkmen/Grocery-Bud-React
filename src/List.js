@@ -7,6 +7,9 @@ const List = ({items}) => {
       const {id, title} = item
       return <article key={id} className='grocery-item'>
         <p className='title'>{title}</p>
+        <div className="btn-container">
+          <button type='button' className=''></button>
+        </div>
       </article>
     })}
   </div>
