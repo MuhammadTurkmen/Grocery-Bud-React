@@ -11,3 +11,4 @@ const Alert = ({type, msg, removeAlert}) => {
 }
 
 export default Alert
+ 
