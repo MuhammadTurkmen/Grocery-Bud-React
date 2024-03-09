@@ -18,6 +18,7 @@ function App() {
     }
     else {
       // show alert
+      const newItem = {}
     }
   } 
   return <section className='section-center'>
