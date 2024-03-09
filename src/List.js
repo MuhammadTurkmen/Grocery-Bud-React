@@ -12,7 +12,7 @@ const List = ({items}) => {
             <FaEdit />
           </button>
           <button type='button' className='delete-btn'>
-            <FaEdit />
+            <FaTrash />
           </button>
         </div>
       </article>
