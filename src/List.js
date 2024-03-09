@@ -8,7 +8,9 @@ const List = ({items}) => {
       return <article key={id} className='grocery-item'>
         <p className='title'>{title}</p>
         <div className="btn-container">
-          <button type='button' className='edit-btn'></button>
+          <button type='button' className='edit-btn'>
+            <FaEdit />
+          </button>
         </div>
       </article>
     })}
