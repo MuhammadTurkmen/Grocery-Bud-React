@@ -9,8 +9,8 @@ function App() {
   const [editID, setEditID] = useState(null)
   const [alert, setAlert] = useState({
     show: false, 
-    msg: 'hello world', 
-    type:'success'
+    msg: '', 
+    type:''
   })
   const handleSubmit = (e) => {
     e.preventDefault()
