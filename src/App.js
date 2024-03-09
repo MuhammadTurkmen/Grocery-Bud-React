@@ -16,7 +16,8 @@ function App() {
       {alert.show && <Alert />}
       <h3>grocery bud</h3>
       <div className="form-controle">
-        
+        <input type="text" name="" id="" />
+        <button type='submit'></button>
       </div>
     </form>
     <div className='grocery-container'>
