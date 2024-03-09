@@ -9,7 +9,7 @@ function App() {
   const [editID, setEditID] = useState(null)
   const [alert, setAlert] = useState({show: false, msg: '', type:''})
   return <section className='section-center'>
-    <form ></form>
+    <form className='grocery-form'></form>
     <div className='grocery-container'>
       <List />
       <button className='clear-btn' >
