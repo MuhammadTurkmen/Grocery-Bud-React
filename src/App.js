@@ -20,6 +20,7 @@ function App() {
       // show alert
       const newItem = {id: new Date().getTime().toString(), title: name}
       setList([...list, newItem])
+      setName('')
     }
   } 
   return <section className='section-center'>
