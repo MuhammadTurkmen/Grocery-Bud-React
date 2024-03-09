@@ -22,7 +22,7 @@ function App() {
       // deal with edit
     }
     else {
-      // show alert
+      // show alert 
       const newItem = {id: new Date().getTime().toString(), title: name}
       setList([...list, newItem])
       setName('')
