@@ -13,6 +13,10 @@ function App() {
     if(!name) {
       // display alert
     }
+    else if(name && isEditing) {
+      // deal with edit
+    }
+    
   } 
   return <section className='section-center'>
     <form className='grocery-form' onSubmit={handleSubmit}>
