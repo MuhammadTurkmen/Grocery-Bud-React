@@ -16,7 +16,7 @@ function App() {
       {alert.show && <Alert />}
       <h3>grocery bud</h3>
       <div className="form-control">
-        <input type="text" />
+        <input type="text" className='grocery'/>
         <button type='submit' className='submit-btn'>
           {isEditing ? 'edit' : 'submit'}
         </button>
