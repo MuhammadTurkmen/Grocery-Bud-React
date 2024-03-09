@@ -18,7 +18,7 @@ function App() {
     }
     else {
       // show alert
-      const newItem = {}
+      const newItem = {id: new Date().getTime().toString()}
     }
   } 
   return <section className='section-center'>
