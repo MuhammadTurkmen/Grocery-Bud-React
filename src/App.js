@@ -8,7 +8,7 @@ function App() {
   const [isEditing, setIsEditing] = useState(false)
   const [editID, setEditID] = useState(null)
   const [alert, setAlert] = useState({
-    show: true, 
+    show: false, 
     msg: 'hello world', 
     type:'success'
   })
