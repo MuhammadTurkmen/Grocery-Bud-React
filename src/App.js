@@ -11,7 +11,7 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault()
     if(!name) {
-      
+      // display alert
     }
   } 
   return <section className='section-center'>
