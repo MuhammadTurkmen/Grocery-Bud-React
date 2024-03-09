@@ -29,7 +29,9 @@ function App() {
     }
   } 
 
-  const showAlert = (show=false, type="", msg="")
+  const showAlert = (show=false, type="", msg="") => {
+    
+  }
   
   return <section className='section-center'>
     <form className='grocery-form' onSubmit={handleSubmit}>
