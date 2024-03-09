@@ -16,7 +16,9 @@ function App() {
     else if(name && isEditing) {
       // deal with edit
     }
-    
+    else {
+      // show alert
+    }
   } 
   return <section className='section-center'>
     <form className='grocery-form' onSubmit={handleSubmit}>
