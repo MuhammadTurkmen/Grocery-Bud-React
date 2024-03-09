@@ -4,7 +4,7 @@ const List = ({items}) => {
   
   return <div className="grocery-list">
     {items.map((item) => {
-      
+      const {id, title} = item
     })}
   </div>
 }
