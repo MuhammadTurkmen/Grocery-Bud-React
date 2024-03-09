@@ -15,7 +15,7 @@ function App() {
     <form className='grocery-form' onSubmit={handleSubmit}>
       {alert.show && <Alert />}
       <h3>grocery bud</h3>
-      <div className="form-controle">
+      <div className="form-control">
         <input type="text" name="" id="" />
         <button type='submit' className='submit-btn'>
           {isEditing ? 'edit' : 'submit'}
