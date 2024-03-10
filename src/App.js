@@ -39,7 +39,7 @@ function App() {
   }
 
   const removeItem = (id) => {
-    
+    showAlert(true, 'danger', 'item removed')
   }
   return <section className='section-center'>
     <form className='grocery-form' onSubmit={handleSubmit}>
