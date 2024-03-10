@@ -25,6 +25,7 @@ function App() {
         }
         return item
       }))
+      setName('')
     }
     else {
       showAlert(true, 'success', 'item added to the list')
