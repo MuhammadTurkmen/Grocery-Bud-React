@@ -22,7 +22,7 @@ function App() {
       // deal with edit
     }
     else {
-      // show alert 
+      showAlert(true, 'seccess', 'item added to the list')
       const newItem = {id: new Date().getTime().toString(), title: name}
       setList([...list, newItem])
       setName('')
