@@ -8,7 +8,7 @@ const getLocalStorage = () => {
     return JSON.parse(localStorage.getItem('list'))
   }
   else {
-    return []
+    return [] 
   }
 } 
 
