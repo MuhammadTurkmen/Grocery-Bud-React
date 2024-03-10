@@ -12,7 +12,7 @@ const getLocalStorage = () => {
   }  
 }    
    
-function App() {
+function App() { 
   const [name, setName] = useState('')  
   const [list, setList] = useState(getLocalStorage())
   const [isEditing, setIsEditing] = useState(false) 
