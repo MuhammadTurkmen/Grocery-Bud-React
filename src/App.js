@@ -43,7 +43,7 @@ function App() {
     setList(list.filter((item) => item.id !== id))
   }
   const editItem = (id) => {
-    
+    const speciticItem = list.find((itme) => item.id === id)
   }
   return <section className='section-center'>
     <form className='grocery-form' onSubmit={handleSubmit}>
