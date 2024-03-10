@@ -44,6 +44,8 @@ function App() {
   }
   const editItem = (id) => {
     const speciticItem = list.find((itme) => item.id === id)
+    setIsEditing(true)
+    setEditID(id)
   }
   return <section className='section-center'>
     <form className='grocery-form' onSubmit={handleSubmit}>
