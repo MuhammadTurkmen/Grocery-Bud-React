@@ -11,7 +11,7 @@ const getLocalStorage = () => {
     return [] 
   }
 }  
-
+ 
 function App() {
   const [name, setName] = useState('')
   const [list, setList] = useState(getLocalStorage())
