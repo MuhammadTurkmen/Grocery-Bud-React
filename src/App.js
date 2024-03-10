@@ -67,7 +67,7 @@ function App() {
     </form>
     {list.length > 0 && 
     <div className='grocery-container'>
-      <List items={list} removeItem={removeItem}/>
+      <List items={list} removeItem={removeItem} editItem={editItem}/>
       <button className='clear-btn' onClick={clearList}>
         clear items
       </button>
