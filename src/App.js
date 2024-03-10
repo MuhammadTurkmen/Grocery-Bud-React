@@ -43,7 +43,7 @@ function App() {
     setList(list.filter((item) => item.id !== id))
   }
   const editItem = (id) => {
-    const speciticItem = list.find((itme) => item.id === id)
+    const speciticItem = list.find((item) => item.id === id)
     setIsEditing(true)
     setEditID(id)
     setName(speciticItem.title)
