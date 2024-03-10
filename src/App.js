@@ -14,7 +14,7 @@ const getLocalStorage = () => {
 
 function App() {
   const [name, setName] = useState('')
-  const [list, setList] = useState([])
+  const [list, setList] = useState(getLocalStorage())
   const [isEditing, setIsEditing] = useState(false)
   const [editID, setEditID] = useState(null)
   const [alert, setAlert] = useState({
