@@ -42,6 +42,9 @@ function App() {
     showAlert(true, 'danger', 'item removed')
     setList(list.filter((item) => item.id !== id))
   }
+  const editItem = (id) => {
+    
+  }
   return <section className='section-center'>
     <form className='grocery-form' onSubmit={handleSubmit}>
       {alert.show && <Alert  {...alert} removeAlert={showAlert} list={list}/>}
