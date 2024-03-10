@@ -10,7 +10,7 @@ const getLocalStorage = () => {
   else {
     return [] 
   }
-} 
+}  
 
 function App() {
   const [name, setName] = useState('')
