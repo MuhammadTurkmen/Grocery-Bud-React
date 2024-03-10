@@ -9,7 +9,7 @@ const getLocalStorage = () => {
   }
   else {
     return [] 
-  }
+  } 
 }   
  
 function App() {
