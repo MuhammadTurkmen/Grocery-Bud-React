@@ -26,6 +26,8 @@ function App() {
         return item
       }))
       setName('')
+      setEditID(null)
+      setIsEditing(false)
     }
     else {
       showAlert(true, 'success', 'item added to the list')
